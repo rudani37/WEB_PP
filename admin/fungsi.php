@@ -1,16 +1,16 @@
 <?php
 
 $host = "localhost";
-$user = "id5762022_admin";
-$pass = "pzt254sc32";
+$user = "root";
+$pass = "";
 $db = "id5762022_hij";
 
 $konek = new mysqli($host, $user, $pass, $db);
 
 function koneksi () {
 $host = "localhost";
-$user = "id5762022_admin";
-$pass = "pzt254sc32";
+$user = "root";
+$pass = "";
 $db = "id5762022_hij";
 
 $konek = mysql_connect($host, $user, $pass, $db);
